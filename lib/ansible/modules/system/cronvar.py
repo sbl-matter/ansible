@@ -27,6 +27,7 @@ short_description: Manage variables in crontabs
 description:
   - Use this module to manage crontab variables.
   - This module allows you to create, update, or delete cron variable definitions.
+  - Skipped in check mode.
 version_added: "2.0"
 options:
   name:
